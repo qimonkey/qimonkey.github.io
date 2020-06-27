@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://localhost:4000/linux/linux%E7%BC%96%E8%BE%91%E6%96%87%E6%9C%AC%E6%97%B6%E8%B7%B3%E8%BD%AC%E5%88%B0%E6%9C%80%E5%90%8E%E4%B8%80%E8%A1%8C%E5%92%8C%E7%AC%AC%E4%B8%80%E8%A1%8C%E5%8F%8A%E7%9B%B8%E5%85%B3%E6%8C%87%E4%BB%A4/</loc>
+    <lastmod>2020-05-01</lastmod>
+  </url>  <url>
+    <loc>http://localhost:4000/linux/linux%E7%9A%84vi-vim/</loc>
+    <lastmod>2020-05-01</lastmod>
+  </url>  <url>
+    <loc>http://localhost:4000/linux/linux%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2020-05-01</lastmod>
+  </url>  <url>
+    <loc>http://localhost:4000/nginx/nginx/</loc>
+    <lastmod>2020-05-01</lastmod>
+  </url>  <url>
+    <loc>http://localhost:4000/gitee/ceshi/</loc>
+    <lastmod>2020-05-01</lastmod>
+  </url>  <url>
+    <loc>http://localhost:4000/gitee/gitee/</loc>
+    <lastmod>2020-04-26</lastmod>
+  </url>
+</urlset>

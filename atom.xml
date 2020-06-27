@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>MonkeyQi 的烂笔头</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://localhost:4000/"/>
+  <updated>2020-05-01T14:16:24.219Z</updated>
+  <id>http://localhost:4000/</id>
+  
+  <author>
+    <name>qimonkey</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>linux编辑文本时跳转到最后一行和第一行及相关指令</title>
+    <link href="http://localhost:4000/linux/linux%E7%BC%96%E8%BE%91%E6%96%87%E6%9C%AC%E6%97%B6%E8%B7%B3%E8%BD%AC%E5%88%B0%E6%9C%80%E5%90%8E%E4%B8%80%E8%A1%8C%E5%92%8C%E7%AC%AC%E4%B8%80%E8%A1%8C%E5%8F%8A%E7%9B%B8%E5%85%B3%E6%8C%87%E4%BB%A4/"/>
+    <id>http://localhost:4000/linux/linux%E7%BC%96%E8%BE%91%E6%96%87%E6%9C%AC%E6%97%B6%E8%B7%B3%E8%BD%AC%E5%88%B0%E6%9C%80%E5%90%8E%E4%B8%80%E8%A1%8C%E5%92%8C%E7%AC%AC%E4%B8%80%E8%A1%8C%E5%8F%8A%E7%9B%B8%E5%85%B3%E6%8C%87%E4%BB%A4/</id>
+    <published>2020-05-01T14:15:24.000Z</published>
+    <updated>2020-05-01T14:16:24.219Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="vi-vim-操作"><a href="#vi-vim-操作" class="headerlink" title="vi/vim 操作"></a>vi/vim 操作</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">跳到文本的最后一行：按“G”,即“shift+g”</span><br><span class="line">跳到最后一行的最后一个字符 ： 先重复1的操作即按“G”，之后按“$”键，即“shift+4”</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;vi-vim-操作&quot;&gt;&lt;a href=&quot;#vi-vim-操作&quot; class=&quot;headerlink&quot; title=&quot;vi/vim 操作&quot;&gt;&lt;/a&gt;vi/vim 操作&lt;/h1&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;t
+      
+    
+    </summary>
+    
+    
+      <category term="linux" scheme="http://localhost:4000/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="http://localhost:4000/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux的学习笔记</title>
+    <link href="http://localhost:4000/linux/linux%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://localhost:4000/linux/linux%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2020-05-01T14:11:20.000Z</published>
+    <updated>2020-05-01T14:14:04.957Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Linux-查看当前用户-id-和组-id"><a href="#Linux-查看当前用户-id-和组-id" class="headerlink" title="Linux 查看当前用户 id 和组 id"></a>Linux 查看当前用户 id 和组 id</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">whoami &amp;&amp; id</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Linux-查看当前用户-id-和组-id&quot;&gt;&lt;a href=&quot;#Linux-查看当前用户-id-和组-id&quot; class=&quot;headerlink&quot; title=&quot;Linux 查看当前用户 id 和组 id&quot;&gt;&lt;/a&gt;Linux 查看当前用户 id 和组 id&lt;/
+      
+    
+    </summary>
+    
+    
+      <category term="linux" scheme="http://localhost:4000/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="http://localhost:4000/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux的vi/vim</title>
+    <link href="http://localhost:4000/linux/linux%E7%9A%84vi-vim/"/>
+    <id>http://localhost:4000/linux/linux%E7%9A%84vi-vim/</id>
+    <published>2020-04-30T09:33:53.000Z</published>
+    <updated>2020-05-01T14:14:52.373Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="linux-vi-vim-显示"><a href="#linux-vi-vim-显示" class="headerlink" title="linux vi/vim 显示"></a>linux vi/vim 显示</h1><h4 id="步骤-1"><a href="#步骤-1" class="headerlink" title="步骤 1"></a>步骤 1</h4><h5 id="vi-vimrc"><a href="#vi-vimrc" class="headerlink" title="vi ~/.vimrc"></a>vi ~/.vimrc</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">进入insert模式：</span><br><span class="line">syntax on</span><br><span class="line">set nu!</span><br></pre></td></tr></table></figure><h4 id="步骤-2"><a href="#步骤-2" class="headerlink" title="步骤 2"></a>步骤 2</h4><h5 id="保存收工"><a href="#保存收工" class="headerlink" title="保存收工"></a>保存收工</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ESC</span><br><span class="line">&quot;SHIRT&quot;+&quot;;&quot;:</span><br><span class="line">wq!</span><br></pre></td></tr></table></figure><h4 id="最后附上其它选项"><a href="#最后附上其它选项" class="headerlink" title="最后附上其它选项"></a>最后附上其它选项</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line">set nocompatible                 &quot;去掉有关vi一致性模式，避免以前版本的bug和局限</span><br><span class="line"></span><br><span class="line">set nu!                                    &quot;显示行号</span><br><span class="line"></span><br><span class="line">set guifont&#x3D;Luxi&#x2F; Mono&#x2F; 9   &quot; 设置字体，字体名称和字号</span><br><span class="line"></span><br><span class="line">filetype on                              &quot;检测文件的类型</span><br><span class="line"></span><br><span class="line">set history&#x3D;1000                  &quot;记录历史的行数</span><br><span class="line"></span><br><span class="line">set background&#x3D;dark          &quot;背景使用黑色</span><br><span class="line"></span><br><span class="line">syntax on                                &quot;语法高亮度显示</span><br><span class="line"></span><br><span class="line">set autoindent                       &quot;vim使用自动对齐，也就是把当前行的对齐格式应用到下一行(自动缩进）</span><br><span class="line"></span><br><span class="line">set cindent                             &quot;（cindent是特别针对 C语言语法自动缩进）</span><br><span class="line"></span><br><span class="line">set smartindent                    &quot;依据上面的对齐格式，智能的选择对齐方式，对于类似C语言编写上有用</span><br><span class="line"></span><br><span class="line">set tabstop&#x3D;4                        &quot;设置tab键为4个空格，</span><br><span class="line"></span><br><span class="line">set shiftwidth &#x3D;4                   &quot;设置当行之间交错时使用4个空格</span><br><span class="line"></span><br><span class="line">set ai!                                      &quot; 设置自动缩进</span><br><span class="line"></span><br><span class="line">set showmatch                     &quot;设置匹配模式，类似当输入一个左括号时会匹配相应的右括号</span><br><span class="line"></span><br><span class="line">set guioptions-&#x3D;T                 &quot;去除vim的GUI版本中得toolbar</span><br><span class="line"></span><br><span class="line">set vb t_vb&#x3D;                            &quot;当vim进行编辑时，如果命令错误，会发出警报，该设置去掉警报</span><br><span class="line"></span><br><span class="line">set ruler                                  &quot;在编辑过程中，在右下角显示光标位置的状态行</span><br><span class="line"></span><br><span class="line">set nohls                                &quot;默认情况下，寻找匹配是高亮度显示，该设置关闭高亮显示</span><br><span class="line"></span><br><span class="line">set incsearch                        &quot;在程序中查询一单词，自动匹配单词的位置；如查询desk单词，当输到&#x2F;d时，会自动找到第一个d开头的单词，当输入到&#x2F;de时，会自动找到第一个以ds开头的单词，以此类推，进行查找；当找到要匹配的单词时，别忘记回车</span><br><span class="line"></span><br><span class="line">set backspace&#x3D;2           &quot; 设置退格键可用</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;linux-vi-vim-显示&quot;&gt;&lt;a href=&quot;#linux-vi-vim-显示&quot; class=&quot;headerlink&quot; title=&quot;linux vi/vim 显示&quot;&gt;&lt;/a&gt;linux vi/vim 显示&lt;/h1&gt;&lt;h4 id=&quot;步骤-1&quot;&gt;&lt;a href
+      
+    
+    </summary>
+    
+    
+      <category term="linux" scheme="http://localhost:4000/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="http://localhost:4000/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ceshi</title>
+    <link href="http://localhost:4000/gitee/ceshi/"/>
+    <id>http://localhost:4000/gitee/ceshi/</id>
+    <published>2020-04-25T16:08:23.000Z</published>
+    <updated>2020-05-01T13:49:49.422Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/gitee/ceshi/a.jpg" alt="a"></p><img src="/gitee/ceshi/a.jpg" class title="This is an touxiang image"><p>测试1</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;/gitee/ceshi/a.jpg&quot; alt=&quot;a&quot;&gt;&lt;/p&gt;
+&lt;img src=&quot;/gitee/ceshi/a.jpg&quot; class title=&quot;This is an touxiang image&quot;&gt;
+
+&lt;p&gt;测试1&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="gitee" scheme="http://localhost:4000/categories/gitee/"/>
+    
+    
+      <category term="gitee" scheme="http://localhost:4000/tags/gitee/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>nginx</title>
+    <link href="http://localhost:4000/nginx/nginx/"/>
+    <id>http://localhost:4000/nginx/nginx/</id>
+    <published>2020-04-25T15:46:17.000Z</published>
+    <updated>2020-05-01T14:06:50.774Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="启动-nginx"><a href="#启动-nginx" class="headerlink" title="启动 nginx"></a>启动 nginx</h1><ol><li>在 ROOT 下<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx</span><br></pre></td></tr></table></figure></li><li>在目录 /usr/local/nginx/sbin<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.&#x2F;nginx</span><br></pre></td></tr></table></figure></li></ol><h1 id="关闭-nginx（强制停止服务，丢弃正在处理的任务）"><a href="#关闭-nginx（强制停止服务，丢弃正在处理的任务）" class="headerlink" title="关闭 nginx（强制停止服务，丢弃正在处理的任务）"></a>关闭 nginx（强制停止服务，丢弃正在处理的任务）</h1><ol><li>在 ROOT 下<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx -s stop</span><br></pre></td></tr></table></figure></li><li>在目录 /usr/local/nginx/sbin<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.&#x2F;nginx -s stop</span><br></pre></td></tr></table></figure></li></ol><h1 id="优雅关闭-nginx（等待任务处理后退出）"><a href="#优雅关闭-nginx（等待任务处理后退出）" class="headerlink" title="优雅关闭 nginx（等待任务处理后退出）"></a>优雅关闭 nginx（等待任务处理后退出）</h1><ol><li>在 ROOT 下<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx -s quit</span><br></pre></td></tr></table></figure></li><li>在目录 /usr/local/nginx/sbin<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.&#x2F;nginx -s quit</span><br></pre></td></tr></table></figure></li></ol><h1 id="重启-nginx"><a href="#重启-nginx" class="headerlink" title="重启 nginx"></a>重启 nginx</h1><ol><li><p>在 ROOT 下</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx -s reload</span><br></pre></td></tr></table></figure></li><li><p>在目录 /usr/local/nginx/sbin</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.&#x2F;nginx -s reload</span><br></pre></td></tr></table></figure></li></ol><h1 id="使用-systemctl-管理-Nginx-服务"><a href="#使用-systemctl-管理-Nginx-服务" class="headerlink" title="使用 systemctl 管理 Nginx 服务"></a>使用 systemctl 管理 Nginx 服务</h1><h4 id="您可以像任何其他-systemd-单位一样管理-Nginx-服务。-要停止-Nginx-服务，请运行："><a href="#您可以像任何其他-systemd-单位一样管理-Nginx-服务。-要停止-Nginx-服务，请运行：" class="headerlink" title="您可以像任何其他 systemd 单位一样管理 Nginx 服务。 要停止 Nginx 服务，请运行："></a>您可以像任何其他 systemd 单位一样管理 Nginx 服务。 要停止 Nginx 服务，请运行：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl stop nginx</span><br></pre></td></tr></table></figure><h4 id="要再次启动，请键入："><a href="#要再次启动，请键入：" class="headerlink" title="要再次启动，请键入："></a>要再次启动，请键入：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl start nginx</span><br></pre></td></tr></table></figure><h4 id="重新启动-Nginx-服务："><a href="#重新启动-Nginx-服务：" class="headerlink" title="重新启动 Nginx 服务："></a>重新启动 Nginx 服务：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl restart nginx</span><br></pre></td></tr></table></figure><h4 id="在进行一些配置更改后重新加载-Nginx-服务："><a href="#在进行一些配置更改后重新加载-Nginx-服务：" class="headerlink" title="在进行一些配置更改后重新加载 Nginx 服务："></a>在进行一些配置更改后重新加载 Nginx 服务：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl reload nginx</span><br></pre></td></tr></table></figure><h4 id="如果你想禁用-Nginx-服务在启动时启动："><a href="#如果你想禁用-Nginx-服务在启动时启动：" class="headerlink" title="如果你想禁用 Nginx 服务在启动时启动："></a>如果你想禁用 Nginx 服务在启动时启动：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl disable nginx</span><br></pre></td></tr></table></figure><h4 id="并重新启用它："><a href="#并重新启用它：" class="headerlink" title="并重新启用它："></a>并重新启用它：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl enable nginx</span><br></pre></td></tr></table></figure><h4 id="检查-Nginx-服务的状态和版本："><a href="#检查-Nginx-服务的状态和版本：" class="headerlink" title="检查 Nginx 服务的状态和版本："></a>检查 Nginx 服务的状态和版本：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl status nginx</span><br></pre></td></tr></table></figure><h1 id="验证-nginx-是否启动成功"><a href="#验证-nginx-是否启动成功" class="headerlink" title="验证 nginx 是否启动成功"></a>验证 nginx 是否启动成功</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">首先可以查看后台是否启动，使用命令ps -ef |grep nginx。</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;启动-nginx&quot;&gt;&lt;a href=&quot;#启动-nginx&quot; class=&quot;headerlink&quot; title=&quot;启动 nginx&quot;&gt;&lt;/a&gt;启动 nginx&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;在 ROOT 下&lt;figure class=&quot;highlight plain&quot;&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="nginx" scheme="http://localhost:4000/categories/nginx/"/>
+    
+    
+      <category term="nginx" scheme="http://localhost:4000/tags/nginx/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>gitee</title>
+    <link href="http://localhost:4000/gitee/gitee/"/>
+    <id>http://localhost:4000/gitee/gitee/</id>
+    <published>2020-04-25T13:41:16.000Z</published>
+    <updated>2020-04-26T02:34:28.335Z</updated>
+    
+    <content type="html"><![CDATA[<p>解决GitHub下载慢 <a href="https://blog.csdn.net/tefuirnever/article/details/99110367" target="_blank" rel="noopener">https://blog.csdn.net/tefuirnever/article/details/99110367</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;解决GitHub下载慢 &lt;a href=&quot;https://blog.csdn.net/tefuirnever/article/details/99110367&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://blog.csdn.net/tef
+      
+    
+    </summary>
+    
+    
+      <category term="gitee" scheme="http://localhost:4000/categories/gitee/"/>
+    
+    
+  </entry>
+  
+</feed>
